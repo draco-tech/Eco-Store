@@ -1,0 +1,189 @@
+body {
+  background-color: rgb(55, 5, 155);
+  margin: 0px;
+  padding: 0px;
+  background-color: #FFEFE7;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  color: #BABD8D;
+}
+nav p {
+  top: auto;
+  font-size: 1.9em;
+  padding-left: 30px;
+}
+nav .icons {
+  top: auto;
+  gap: 15px;
+  font-size: 1.9em;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+}
+
+article {
+  width: auto;
+  color: #7C6A0A;
+  padding-left: 30px;
+  padding-right: 45px;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+article h1 {
+  font-size: 3em;
+}
+article p {
+  font-size: 33px;
+}
+article img {
+  width: 35vw;
+  border-radius: 19px;
+}
+article button {
+  color: white;
+  width: 150px;
+  height: 75px;
+  background-color: #FA9500;
+  border-color: #FA9500;
+  border-radius: 45px;
+}
+article button:hover {
+  cursor: pointer;
+  width: 162px;
+  height: 87px;
+  right: 75px;
+  left: 75px;
+}
+
+section {
+  width: auto;
+  height: auto;
+  padding: 60px;
+}
+section h2 {
+  color: #7C6A0A;
+  font-size: 2em;
+}
+section .healthCare, section .furniture {
+  padding-bottom: 60px;
+}
+section .healthCare h2, section .furniture h2 {
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+section .healthCare .card-section, section .furniture .card-section {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: scroll;
+  column-gap: 20px;
+  row-gap: 80px;
+}
+section .healthCare .card-section .product-card, section .furniture .card-section .product-card {
+  width: 35vw;
+  height: 47vh;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 15px;
+}
+section .healthCare .card-section .product-card .icon, section .furniture .card-section .product-card .icon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-bottom: 12px;
+}
+section .healthCare .card-section .product-card .icon svg, section .furniture .card-section .product-card .icon svg {
+  width: 38px;
+  height: 38px;
+  stroke: #7C6A0A;
+}
+section .healthCare .card-section .product-card .icon svg:active, section .furniture .card-section .product-card .icon svg:active {
+  fill: #7C6A0A;
+}
+section .healthCare .card-section .product-card .heart, section .furniture .card-section .product-card .heart {
+  right: 35px;
+  width: 33px;
+  height: 35px;
+}
+section .healthCare .card-section .product-card .product-image, section .furniture .card-section .product-card .product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .healthCare .card-section .product-card .product-image img, section .furniture .card-section .product-card .product-image img {
+  width: 35vw;
+  height: 35vh;
+  object-fit: cover;
+  border-radius: 16px;
+}
+section .healthCare .card-section .product-card h3, section .furniture .card-section .product-card h3 {
+  font-size: 25px;
+}
+section .healthCare .card-section .product-card p, section .furniture .card-section .product-card p {
+  font-size: 25px;
+}
+
+.furniture img {
+  width: 35vw;
+  height: 35vh;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.info-section p {
+  color: #E86424;
+  font-size: 1.5em;
+}
+
+.gallery h1 {
+  color: #7C6A0A;
+  font-size: 2em;
+}
+.gallery .img-card-container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 80px;
+}
+.gallery .gallery-image img {
+  width: 28vw;
+  height: 45vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 5px 35%;
+  object-position: 5px 35%;
+  border-radius: 16px;
+  transition: all 100ms ease-in;
+  scale: 1;
+  box-shadow: 2px 2px 1px #000;
+}
+.gallery .gallery-image img:hover {
+  cursor: pointer;
+  scale: 1.1;
+  box-shadow: 2px 2px 10px #000;
+}
+
+.footer {
+  background-color: #FA9500;
+  width: 100%;
+  height: 250px;
+}/*# sourceMappingURL=main.css.map */
